@@ -1,0 +1,22 @@
+{
+  "name": "DemoFlight-2",
+  "customer": "DARPA/NASA",
+  
+  "launch-time": 1174439400,
+
+  "vehicle": {
+    "type": "f1",
+    
+    "fate": "lost",
+    "lost-at": 100
+
+  },
+
+  "payloads": [
+    {
+      "name": "DemoFlight-2",
+      "customer": "DARPA/NASA"
+    }
+  ]
+
+}

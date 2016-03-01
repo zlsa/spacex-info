@@ -1,0 +1,25 @@
+{
+  "name": "CRS-6",
+  "customer": "NASA",
+  
+  "launch-time": 1429042241,
+
+  "vehicle": {
+    "type": "f9-v1.1",
+    "configuration": {
+      "octaweb": "black",
+      "grid-fins": true,
+      "legs": true
+    }
+  },
+
+  "capsule": {
+    "type": "cargo-dragon",
+    "name": "CRS-6"
+  },
+
+  "destination": {
+    "station": "iss"
+  }
+  
+}

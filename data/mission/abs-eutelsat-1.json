@@ -1,0 +1,32 @@
+{
+  "name": "ABS/Eutelsat-1",
+  "customer": "ABS/Eutelsat",
+  
+  "launch-time": 1425268200,
+
+  "vehicle": {
+    "type": "f9-v1.1",
+    
+    "configuration": {
+      "fairing": true,
+      "octaweb": "black"
+    }
+    
+  },
+
+  "payloads": [
+    {
+      "name": "ABS-3A",
+      "customer": "Asia Broadcast Satellite"
+    },
+    {
+      "name": "Eutelsat 115 West B",
+      "customer": "Eutelsat"
+    }
+  ],
+
+  "destination": {
+    "station": "geo"
+  }
+  
+}

@@ -1,0 +1,20 @@
+{
+  "name": "COTS C2+",
+  "customer": "NASA",
+  
+  "launch-time": 1337672640,
+
+  "vehicle": {
+    "type": "f9-v1.0"
+  },
+
+  "capsule": {
+    "type": "cargo-dragon",
+    "name": "COTS C2+"
+  },
+
+  "destination": {
+    "station": "iss"
+  }
+  
+}

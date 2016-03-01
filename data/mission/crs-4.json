@@ -1,0 +1,23 @@
+{
+  "name": "CRS-4",
+  "customer": "NASA",
+  
+  "launch-time": 1411278723,
+
+  "vehicle": {
+    "type": "f9-v1.1",
+    "configuration": {
+      "octaweb": "black"
+    }
+  },
+
+  "capsule": {
+    "type": "cargo-dragon",
+    "name": "CRS-4"
+  },
+
+  "destination": {
+    "station": "iss"
+  }
+  
+}

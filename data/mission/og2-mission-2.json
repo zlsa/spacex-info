@@ -1,0 +1,34 @@
+{
+  "name": "OG2 Mission 2",
+  "customer": "Orbcomm",
+  
+  "launch-time": 1450747140,
+
+  "vehicle": {
+    "type": "f9-v1.2",
+    
+    "configuration": {
+      "fairing": true
+    },
+    
+    "recovery": {
+      "fate": "landed",
+      "where": "lz-1",
+      "state": "used"
+    }
+    
+  },
+
+  "payloads": [
+    {
+      "name": "OG2 Mission 2",
+      "customer": "Orbcomm"
+    }
+  ],
+
+  "destination": {
+    "altitude": 650,
+    "inclination": 45
+  }
+  
+}

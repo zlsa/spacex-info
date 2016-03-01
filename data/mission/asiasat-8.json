@@ -1,0 +1,27 @@
+{
+  "name": "Asiasat 8",
+  "customer": "AsiaSat",
+  
+  "launch-time": 1407225600,
+
+  "vehicle": {
+    "type": "f9-v1.1",
+    
+    "configuration": {
+      "fairing": true
+    }
+    
+  },
+
+  "payloads": [
+    {
+      "name": "Asiasat 8",
+      "customer": "Asiasat"
+    }
+  ],
+
+  "destination": {
+    "station": "geo"
+  }
+  
+}

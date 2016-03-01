@@ -1,0 +1,23 @@
+{
+  "name": "RatSat",
+  "customer": "SpaceX",
+  
+  "launch-time": 1222643700,
+
+  "vehicle": {
+    "type": "f1"
+  },
+
+  "payloads": [
+    {
+      "name": "RatSat",
+      "customer": "SpaceX"
+    }
+  ],
+
+  "destination": {
+    "altitude": 620,
+    "inclination": 9.35
+  }
+
+}

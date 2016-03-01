@@ -1,0 +1,28 @@
+{
+  "name": "Asiasat 6",
+  "customer": "AsiaSat",
+  
+  "launch-time": 1410066000,
+
+  "vehicle": {
+    "type": "f9-v1.1",
+    
+    "configuration": {
+      "fairing": true,
+      "octaweb": "black"
+    }
+    
+  },
+
+  "payloads": [
+    {
+      "name": "Asiasat 6",
+      "customer": "Asiasat"
+    }
+  ],
+
+  "destination": {
+    "station": "geo"
+  }
+  
+}

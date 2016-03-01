@@ -1,0 +1,30 @@
+{
+  "name": "CRS-1",
+  "customer": "NASA",
+  
+  "launch-time": 1349656440,
+
+  "vehicle": {
+    "type": "f9-v1.0"
+  },
+
+  "capsule": {
+    "type": "cargo-dragon",
+    "name": "CRS-1"
+  },
+
+  "payloads": [
+    {
+      "name": "OG2 Demo",
+      "customer": "Orbcomm",
+      "status": {
+        "fate": "lost"
+      }
+    }
+  ],
+
+  "destination": {
+    "station": "iss"
+  }
+  
+}

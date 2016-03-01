@@ -1,0 +1,25 @@
+{
+  "name": "CRS-5",
+  "customer": "NASA",
+  
+  "launch-time": 1420883230,
+
+  "vehicle": {
+    "type": "f9-v1.1",
+    "configuration": {
+      "octaweb": "black",
+      "grid-fins": true,
+      "legs": true
+    }
+  },
+
+  "capsule": {
+    "type": "cargo-dragon",
+    "name": "CRS-5"
+  },
+
+  "destination": {
+    "station": "iss"
+  }
+  
+}

@@ -1,0 +1,36 @@
+{
+  "name": "CASSIOPE",
+  "customer": "MDA",
+  
+  "launch-time": 1380470400,
+
+  "vehicle": {
+    "type": "f9-v1.1",
+    
+    "configuration": {
+      "fairing": true,
+      "legs": false,
+      "grid-fins": false
+    },
+    
+    "recovery": {
+      "fate": "landed",
+      "where": "ocean",
+      "state": "destroyed"
+    }
+    
+  },
+
+  "payloads": [
+    {
+      "name": "CASSIOPE",
+      "customer": "MDA"
+    }
+  ],
+
+  "destination": {
+    "altitude": 1300,
+    "inclination": 80
+  }
+  
+}

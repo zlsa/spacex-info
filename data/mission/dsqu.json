@@ -1,0 +1,21 @@
+{
+  "name": "DSQU",
+  "customer": "NASA",
+  
+  "launch-time": 1275677100,
+
+  "vehicle": {
+    "type": "f9-v1.0"
+  },
+
+  "capsule": {
+    "type": "dsqu",
+    "name": "DSQU"
+  },
+
+  "destination": {
+    "altitude": 250,
+    "inclination": 34.5
+  }
+  
+}

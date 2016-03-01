@@ -1,0 +1,20 @@
+{
+  "name": "CRS-2",
+  "customer": "NASA",
+  
+  "launch-time": 1362928200,
+
+  "vehicle": {
+    "type": "f9-v1.0"
+  },
+
+  "capsule": {
+    "type": "cargo-dragon",
+    "name": "CRS-2"
+  },
+
+  "destination": {
+    "station": "iss"
+  }
+  
+}

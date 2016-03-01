@@ -1,0 +1,27 @@
+{
+  "name": "Thaicom 6",
+  "customer": "Thaicom",
+  
+  "launch-time": 1389045960,
+
+  "vehicle": {
+    "type": "f9-v1.1",
+    
+    "configuration": {
+      "fairing": true
+    }
+    
+  },
+
+  "payloads": [
+    {
+      "name": "Thaicom 6",
+      "customer": "Thaicom"
+    }
+  ],
+
+  "destination": {
+    "station": "geo"
+  }
+  
+}

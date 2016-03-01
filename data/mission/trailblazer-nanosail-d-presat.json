@@ -1,0 +1,30 @@
+{
+  "name": "Trailblazer, NanoSail-D, PREsat",
+  "customer": "Multiple",
+  
+  "launch-time": 1217734440,
+
+  "vehicle": {
+    "type": "f1",
+    
+    "fate": "lost",
+    "lost-at": 100
+
+  },
+
+  "payloads": [
+    {
+      "name": "Trailblazer",
+      "customer": "USAF"
+    },
+    {
+      "name": "NanoSail-D",
+      "customer": "NASA"
+    },
+    {
+      "name": "PREsat",
+      "customer": "NASA"
+    }
+  ]
+
+}

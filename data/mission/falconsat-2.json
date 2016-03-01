@@ -1,0 +1,21 @@
+{
+  "name": "FalconSAT-2",
+  "customer": "USAF Academy",
+  
+  "launch-time": 1143239400,
+
+  "vehicle": {
+    "type": "f1",
+    
+    "fate": "lost",
+    "lost-at": 10
+  },
+
+  "payloads": [
+    {
+      "name": "FalconSAT-2",
+      "customer": "USAF Academy"
+    }
+  ]
+
+}

@@ -1,0 +1,21 @@
+{
+  "name": "COTS C1",
+  "customer": "NASA",
+  
+  "launch-time": 1291822980,
+
+  "vehicle": {
+    "type": "f9-v1.0"
+  },
+
+  "capsule": {
+    "type": "cargo-dragon",
+    "name": "COTS C1"
+  },
+
+  "destination": {
+    "altitude": 250,
+    "inclination": 50
+  }
+  
+}

@@ -1,0 +1,28 @@
+{
+  "name": "TurkmenÄlem52E",
+  "customer": "TNSA",
+  
+  "launch-time": 1430175780,
+
+  "vehicle": {
+    "type": "f9-v1.1",
+    
+    "configuration": {
+      "fairing": true,
+      "octaweb": "black"
+    }
+    
+  },
+
+  "payloads": [
+    {
+      "name": "TurkmenÄlem52E",
+      "customer": "TNSA"
+    }
+  ],
+
+  "destination": {
+    "station": "geo"
+  }
+  
+}

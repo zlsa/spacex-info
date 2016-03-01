@@ -1,0 +1,37 @@
+{
+  "name": "Jason-3",
+  "customer": "NASA/CNES",
+  
+  "launch-time": 1453056138,
+
+  "vehicle": {
+    "type": "f9-v1.1",
+    
+    "configuration": {
+      "fairing": true,
+      "legs": true,
+      "grid-fins": true,
+      "octaweb": "black"
+    },
+    
+    "recovery": {
+      "fate": "landed",
+      "where": "ocisly",
+      "state": "destroyed"
+    }
+    
+  },
+
+  "payloads": [
+    {
+      "name": "Jason-3",
+      "customer": "NASA/CNES"
+    }
+  ],
+
+  "destination": {
+    "altitude": 1300,
+    "inclination": 60
+  }
+  
+}

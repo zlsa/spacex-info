@@ -1,0 +1,23 @@
+{
+  "name": "RazakSAT",
+  "customer": "ATSB",
+  
+  "launch-time": 1247542500,
+
+  "vehicle": {
+    "type": "f1"
+  },
+
+  "payloads": [
+    {
+      "name": "RazakSAT",
+      "customer": "ATSB"
+    }
+  ],
+
+  "destination": {
+    "altitude": 675,
+    "inclination": 8.910
+  }
+
+}
