@@ -1,17 +1,17 @@
 
 var M = {
   destination_width: 128,
-  destination_height: 360,
+  destination_height: 230,
   destination_size: 128,
   vehicle_distance: 24,
-  vehicle_split: 320,
+  vehicle_split: 0,
   vehicle_split_separation: 16,
   min_length: 48,
-  karman_line: 330,
+  karman_line: 256,
   destination: {
-    leo: 192,
-    iss: 192,
-    'polar-leo': 192,
+    leo: 160,
+    iss: 160,
+    'polar-leo': 160,
     geo: 64,
     'sun-earth-l1': 64,
     lost: 256
@@ -19,7 +19,7 @@ var M = {
   destination_distance: {
     leo: 32,
     iss: 32,
-    'polar-leo': 38,
+    'polar-leo': 32,
     geo: 32,
     'sun-earth-l1': 48,
     lost: 20
@@ -137,7 +137,7 @@ var Mission = Events.extend(function(base) {
 
       // second stage
 
-      var second_stage_start = M.vehicle_split - M.vehicle_split_separation/2;
+      var second_stage_start = first_stage_end - M.vehicle_split_separation/2;
       var second_stage_end = dest_height + dest_dist;
 
       if(second_stage_end < second_stage_start) {

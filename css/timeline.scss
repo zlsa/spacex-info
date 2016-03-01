@@ -5,7 +5,7 @@ $mission-width: 128px;
 $mission-spacing: 8px;
 $vehicle-bar-size: 8px;
 
-$timeline-wrap: true;
+$timeline-wrap: false;
 
 #timeline {
   display: flex;
@@ -18,8 +18,6 @@ $timeline-wrap: true;
     justify-content: center;
   }
 
-  padding-bottom: 24px;
-  
   .fate-lost {
     color: rgba(255, 64, 48, 0.7) !important;
   }

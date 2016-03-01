@@ -2,10 +2,16 @@
 #header {
   padding: 24px 48px;
 
+  background-color: #f8f8f8;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
   h1.title {
     font-family: 'Roboto Slab', serif;
     font-weight: 100;
-    font-size: 48px;
+    font-size: 24px;
   }
   
   h2.subtitle {
