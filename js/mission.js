@@ -4,7 +4,7 @@ var M = {
   destination_height: 360,
   destination_size: 128,
   vehicle_distance: 24,
-  vehicle_split: 280,
+  vehicle_split: 320,
   vehicle_split_separation: 16,
   min_length: 48,
   karman_line: 330,
