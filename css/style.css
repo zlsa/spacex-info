@@ -34,16 +34,22 @@
 #timeline {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  -webkit-justify-content: center;
+  justify-content: center;
   padding-bottom: 24px; }
   #timeline .fate-lost {
     color: rgba(255, 64, 48, 0.7) !important; }
   #timeline .mission {
     display: flex;
     flex-direction: column;
-    width: 90px;
+    width: 128px;
     padding: 0 8px; }
     #timeline .mission .vehicle {
-      margin-left: -27px; }
+      margin-left: -8px; }
+    #timeline .mission.future-launch {
+      opacity: 0.3; }
     #timeline .mission .mission-info {
       position: relative;
       border-top: 8px solid rgba(0, 0, 0, 0.1);
@@ -82,14 +88,6 @@
       border-top-color: #CCAA55; }
     #timeline .mission.vehicle-f9v12 .mission-info {
       border-top-color: #5571CC; }
-  #timeline .vehicle-f1 + .vehicle-f1 .mission-info:before {
-    border-top-color: #b4b4b4; }
-  #timeline .vehicle-f9v10 + .vehicle-f9v10 .mission-info:before {
-    border-top-color: #90CC43; }
-  #timeline .vehicle-f9v11 + .vehicle-f9v11 .mission-info:before {
-    border-top-color: #CCAA55; }
-  #timeline .vehicle-f9v12 + .vehicle-f9v12 .mission-info:before {
-    border-top-color: #5571CC; }
 
 html, body {
   overflow: hidden;

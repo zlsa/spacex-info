@@ -197,6 +197,10 @@ var Mission = Events.extend(function(base) {
       for(var i=0; i<this.payloads.length; i++) {
         this.html.find('.mission-payloads').append(this.payloads[i].html);
       }
+
+      if(this.launch_time > time()) {
+        this.html.addClass('future-launch');
+      }
       
       $('#timeline').append(this.html);
     }
@@ -218,7 +222,7 @@ var MissionFile = Mission.extend(function(base) {
 
     file_loaded: function(file) {
       this.parse(file.data);
-    },
+    }
 
   };
 });

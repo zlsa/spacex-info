@@ -1,11 +1,11 @@
 
 @import 'values';
 
-$mission-width: 90px;
+$mission-width: 128px;
 $mission-spacing: 8px;
 $vehicle-bar-size: 8px;
 
-$timeline-wrap: false;
+$timeline-wrap: true;
 
 #timeline {
   display: flex;
@@ -34,6 +34,10 @@ $timeline-wrap: false;
 
     .vehicle {
       margin-left: -$mission-spacing + (($mission-width - 128px) / 2);
+    }
+
+    &.future-launch {
+      opacity: 0.3;
     }
 
     .mission-info {

@@ -1,0 +1,20 @@
+{
+  "name": "DM-1",
+  "customer": "NASA",
+  
+  "launch-time": 1475193600,
+
+  "vehicle": {
+    "type": "f9-v1.2"
+  },
+
+  "capsule": {
+    "type": "crew-dragon",
+    "name": "DM-1"
+  },
+
+  "destination": {
+    "station": "iss"
+  }
+  
+}

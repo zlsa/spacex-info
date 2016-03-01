@@ -26,6 +26,7 @@ var Timeline = Events.extend(function(base) {
       
       this.init_payload_images('dsqu', ['vehicle']);
       this.init_payload_images('cargo-dragon', ['vehicle']);
+      this.init_payload_images('crew-dragon', ['vehicle']);
       
       this.init_vehicle_images('f1', ['vehicle']);
       this.init_vehicle_images('f9-v1.0', ['vehicle', 'rcs']);

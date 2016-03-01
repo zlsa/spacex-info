@@ -1,0 +1,27 @@
+{
+  "name": "SES-9",
+  "customer": "SES",
+  
+  "launch-time": 1457062500,
+
+  "vehicle": {
+    "type": "f9-v1.2",
+    
+    "configuration": {
+      "fairing": true
+    }
+    
+  },
+
+  "payloads": [
+    {
+      "name": "SES-9",
+      "customer": "SES"
+    }
+  ],
+
+  "destination": {
+    "station": "geo"
+  }
+  
+}

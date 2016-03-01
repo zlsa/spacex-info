@@ -62,6 +62,8 @@ var CapsulePayload = Payload.extend(function(base) {
     get_bottom: function() {
       if(this.type == 'cargo-dragon' || this.type == 'dsqu') {
         return 43;
+      } else if(this.type == 'crew-dragon') {
+        return 32;
       }
       return 0;
     },
