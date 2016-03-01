@@ -42,6 +42,13 @@ $timeline-wrap: false;
 
     .mission-info {
 
+      transition: background-color 0.2s ease;
+      
+      &:hover {
+        background-color: white;
+        cursor: pointer;
+      }
+
       position: absolute;
 
       &:before {

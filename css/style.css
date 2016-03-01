@@ -20,7 +20,7 @@
 
 #header {
   padding: 24px 48px;
-  background-color: #f8f8f8;
+  background-color: #eee;
   position: absolute;
   top: 0;
   left: 0; }
@@ -51,6 +51,7 @@
     #timeline .mission.future-launch {
       opacity: 0.3; }
     #timeline .mission .mission-info {
+      transition: background-color 0.2s ease;
       position: absolute;
       border-top: 8px solid rgba(0, 0, 0, 0.1);
       width: 128px;
@@ -59,6 +60,9 @@
       margin-top: 24px;
       padding: 24px 0;
       white-space: nowrap; }
+      #timeline .mission .mission-info:hover {
+        background-color: white;
+        cursor: pointer; }
       #timeline .mission .mission-info:before {
         content: '';
         display: block;
@@ -103,7 +107,7 @@ html, body {
   height: 100%; }
 
 html {
-  background-color: #f8f8f8;
+  background-color: #eee;
   font-family: 'Roboto', sans-serif;
   color: #404040; }
 

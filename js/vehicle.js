@@ -1,6 +1,7 @@
 
 var V = {
-  canvas_height: 512
+  canvas_height: 512,
+  landing_height: 128
 };
 
 var Vehicle = Events.extend(function(base) {
@@ -117,10 +118,38 @@ var Vehicle = Events.extend(function(base) {
 
     },
 
+    draw_landing: function() {
+      var r = this.mission.timeline.images.landing;
+      var cc = this.cc;
+
+      function d(i) {
+        cc.drawImage(r[i].data, 0, V.canvas_height - V.landing_height);
+      }
+
+      if(this.recovery.fate == 'landed') {
+        if(this.recovery.where == 'ocean') {
+          d('ocean');
+        } else if(this.recovery.where == 'land' || this.recovery.where == 'lz-1') {
+          d('land');
+        } else if(this.recovery.where == 'barge' || this.recovery.where == 'ocisly' || this.recovery.where == 'jrti') {
+          d('ocean');
+          d('barge');
+        }
+
+        if(this.recovery.state == 'destroyed') {
+          d('lost');
+        } else {
+          d('rocket');
+        }
+      }
+
+    },
+
     draw: function() {
       this.cc = create_canvas(128, V.canvas_height);
 
       this.draw_vehicle();
+      this.draw_landing();
     },
     
     get_payload: function() {
