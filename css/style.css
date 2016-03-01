@@ -43,16 +43,17 @@
   #timeline .mission {
     display: flex;
     flex-direction: column;
-    width: 128px;
-    padding: 0 8px; }
+    width: 160px;
+    padding: 0 16px;
+    position: relative; }
     #timeline .mission .vehicle {
-      margin-left: -8px; }
+      margin-left: 0px; }
     #timeline .mission.future-launch {
       opacity: 0.3; }
     #timeline .mission .mission-info {
-      position: relative;
+      position: absolute;
       border-top: 8px solid rgba(0, 0, 0, 0.1);
-      width: 100%;
+      width: 128px;
       text-align: center;
       justify-content: center;
       margin-top: 24px;
@@ -63,8 +64,8 @@
         display: block;
         position: absolute;
         top: -8px;
-        left: -16px;
-        width: 16px;
+        left: -32px;
+        width: 32px;
         border-top: 8px solid transparent; }
       #timeline .mission .mission-info .mission-customer {
         color: gray;

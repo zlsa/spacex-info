@@ -1,8 +1,8 @@
 
 @import 'values';
 
-$mission-width: 128px;
-$mission-spacing: 8px;
+$mission-width: 160px;
+$mission-spacing: 16px;
 $vehicle-bar-size: 8px;
 
 $timeline-wrap: false;
@@ -30,6 +30,8 @@ $timeline-wrap: false;
 
     padding: 0 $mission-spacing;
 
+    position: relative;
+
     .vehicle {
       margin-left: -$mission-spacing + (($mission-width - 128px) / 2);
     }
@@ -40,7 +42,7 @@ $timeline-wrap: false;
 
     .mission-info {
 
-      position: relative;
+      position: absolute;
 
       &:before {
         content: '';
@@ -53,7 +55,7 @@ $timeline-wrap: false;
       }
 
       border-top: $vehicle-bar-size solid rgba(black, 0.1);
-      width: 100%;
+      width: $mission-width - $mission-spacing * 2;
 
       text-align: center;
       justify-content: center;
