@@ -523,12 +523,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.99999996623126"
-     inkscape:cx="94.12844362459083"
-     inkscape:cy="70.6523647542781"
+     inkscape:zoom="1"
+     inkscape:cx="60.08129624594744"
+     inkscape:cy="66.08108698684833"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      units="px"
      inkscape:window-width="1600"
      inkscape:window-height="859"
@@ -537,7 +537,7 @@
      inkscape:window-maximized="0"
      inkscape:snap-smooth-nodes="true"
      inkscape:object-nodes="true"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      inkscape:snap-center="false"
      inkscape:snap-text-baseline="true">
@@ -610,7 +610,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -619,12 +619,12 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-924.3621605099651)">
-    <circle
-       r="5.000021934509277"
-       cy="988.3621826171875"
-       cx="64"
-       id="circle9856"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path6629"
+       d="m 64,979.3621605099649 c 1,8 1,8 10,5 -8,5.0000000000001 -7,5.0000000000001 -4,10.0000000000001 -5,-2.9999999999997 -5,-3 -10,1.9999999999999 3,-6 3,-6 -5,-5 9,-4 9,-2 2,-8 7,3 6,3 7,-4 z"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
     <path
        sodipodi:nodetypes="ccc"
        style="opacity:0.5;fill:none;fill-rule:evenodd;stroke:#808080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -8030,11 +8030,11 @@
          d="m 493.8564130678005,138.3621706962586 a 16.00000762939453,3.999993324279785 0 0 1 -3.5718064087356,5.0641693207174 16.00000762939453,3.999993324279785 0 0 1 -20.5692133181298,0 16.00000762939453,3.999993324279785 0 0 1 -3.5718064087356,-5.0641693207174"
          sodipodi:open="true" />
     </g>
-    <circle
-       style="opacity:1;fill:#d12f2f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25222-9"
-       cx="64"
-       cy="988.3621826171875"
-       r="3.999991655349731" />
+    <path
+       style="fill:#d12f2f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 64,979.3621605099649 c 1,8 1,8 10,5 -8,5.0000000000001 -7,5.0000000000001 -4,10.0000000000001 -5,-2.9999999999997 -5,-3 -10,1.9999999999999 3,-6 3,-6 -5,-5 9,-4 9,-2 2,-8 7,3 6,3 7,-4 z"
+       id="path5818"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
   </g>
 </svg>

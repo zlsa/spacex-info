@@ -10,6 +10,12 @@
     "configuration": {
       "fairing": true,
       "octaweb": "black"
+    },
+    
+    "recovery": {
+      "fate": "landed",
+      "where": "ocean",
+      "state": "destroyed"
     }
     
   },

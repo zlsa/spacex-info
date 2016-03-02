@@ -8,7 +8,14 @@
     "type": "f9-v1.1",
     "configuration": {
       "legs": true
+    },
+    
+    "recovery": {
+      "fate": "landed",
+      "where": "ocean",
+      "state": "destroyed"
     }
+    
   },
 
   "capsule": {

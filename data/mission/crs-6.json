@@ -10,6 +10,12 @@
       "octaweb": "black",
       "grid-fins": true,
       "legs": true
+    },
+    
+    "recovery": {
+      "fate": "landed",
+      "where": "jrti",
+      "state": "destroyed"
     }
   },
 

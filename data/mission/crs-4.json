@@ -8,6 +8,12 @@
     "type": "f9-v1.1",
     "configuration": {
       "octaweb": "black"
+    },
+    
+    "recovery": {
+      "fate": "landed",
+      "where": "ocean",
+      "state": "destroyed"
     }
   },
 

@@ -162,6 +162,7 @@ var Mission = Events.extend(function(base) {
       }
 
       cc.drawImage(this.timeline.images.destinations[dest].data, 0, dest_height - (M.destination_size * 0.5));
+      
     },
     
     draw: function() {

@@ -127,17 +127,23 @@ var Vehicle = Events.extend(function(base) {
       }
 
       if(this.recovery.fate == 'landed') {
-        if(this.recovery.where == 'ocean') {
+        var where = this.recovery.where;
+        if(where == 'ocisly' || where == 'jrti') where = 'barge';
+        if(where == 'lz-1' || where == 'lz-2') where = 'land';
+        
+        if(where == 'ocean') {
           d('ocean');
-        } else if(this.recovery.where == 'land' || this.recovery.where == 'lz-1') {
+        } else if(where == 'land') {
           d('land');
-        } else if(this.recovery.where == 'barge' || this.recovery.where == 'ocisly' || this.recovery.where == 'jrti') {
-          d('ocean');
+        } else if(where == 'barge') {
           d('barge');
         }
 
         if(this.recovery.state == 'destroyed') {
-          d('lost');
+          if(where == 'ocean')
+            d('splash');
+          else if(where == 'barge' || where == 'land')
+            d('splash');
         } else {
           d('rocket');
         }
