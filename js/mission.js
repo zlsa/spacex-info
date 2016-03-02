@@ -55,6 +55,18 @@ var Mission = Events.extend(function(base) {
       this.html.append(create_element('div', 'mission-info'));
       this.html.find('.mission-info').append(create_element('h2', 'mission-customer'));
       this.html.find('.mission-info').append(create_element('ul', 'mission-payloads'));
+      this.html.find('.mission-info').click(with_scope(this, this.display_info));
+    },
+
+    display_info: function() {
+      $('#mission-info').removeClass('hidden');
+      $('#mission-info-guard').removeClass('hidden');
+
+      var mi = $('#mission-info');
+      mi.find('.vehicle-type').text(this.vehicle.get_type());
+      mi.find('.mission-name').text(this.name);
+      mi.find('.mission-customer').text(this.customer);
+      mi.find('.mission-launch').text(moment.unix(this.launch_time).utc().format('MMMM Do YYYY h:mm:ss a'));
     },
 
     parse: function(d) {
@@ -162,7 +174,6 @@ var Mission = Events.extend(function(base) {
       }
 
       cc.drawImage(this.timeline.images.destinations[dest].data, 0, dest_height - (M.destination_size * 0.5));
-      
     },
     
     draw: function() {

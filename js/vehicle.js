@@ -37,6 +37,16 @@ var Vehicle = Events.extend(function(base) {
       this.parse(data);
     },
 
+    get_type: function() {
+      var types = {
+        'f1': 'Falcon 1',
+        'f9-v1.0': 'Falcon 9 v1.0',
+        'f9-v1.1': 'Falcon 9 v1.1',
+        'f9-v1.2': 'Falcon 9 v1.2',
+      };
+      return types[this.type];
+    },
+
     parse: function(d) {
       if(typeof d != typeof {}) return;
 

@@ -12,9 +12,6 @@
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
   margin: 0;
   padding: 0; }
 
@@ -100,6 +97,53 @@
     border-top-color: #CCAA55; }
   #timeline .vehicle-f9v12 + .vehicle-f9v12 .mission-info:before {
     border-top-color: #5571CC; }
+
+#mission-info-guard {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: opacity 0.2s ease-in-out; }
+  #mission-info-guard.hidden {
+    opacity: 0;
+    pointer-events: none; }
+
+#mission-info {
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 480px;
+  margin-left: -240px;
+  transform-origin: center;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out; }
+  #mission-info header {
+    position: relative;
+    padding: 8px 0; }
+    #mission-info header h1, #mission-info header h2, #mission-info header h3 {
+      padding: 8px 24px; }
+    #mission-info header .vehicle-type {
+      float: right;
+      font-size: 14px;
+      font-weight: bold;
+      top: 0;
+      margin: 0;
+      right: 0; }
+    #mission-info header .mission-customer {
+      font-size: 14px;
+      color: gray; }
+    #mission-info header .mission-name {
+      font-size: 14px;
+      font-weight: bold; }
+    #mission-info header .mission-launch {
+      font-size: 12px;
+      font-weight: bold; }
+  #mission-info.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(24px); }
 
 html, body {
   overflow: hidden;

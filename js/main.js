@@ -47,4 +47,8 @@ var m;
 
 $(document).ready(function() {
   m = new Main();
+  $('#mission-info-guard').click(function() {
+    $('#mission-info').addClass('hidden');
+    $('#mission-info-guard').addClass('hidden');
+  });
 });

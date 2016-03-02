@@ -48,7 +48,7 @@ function pan_mouseup(e) {
 }
 
 $(document).ready(function() {
-  $(window).mousedown(pan_mousedown);
-  $(window).mousemove(pan_mousemove);
-  $(window).mouseup(pan_mouseup);
+  $('#scroll').mousedown(pan_mousedown);
+  $('#scroll').mousemove(pan_mousemove);
+  $('#scroll').mouseup(pan_mouseup);
 });

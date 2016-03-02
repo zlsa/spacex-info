@@ -1,0 +1,74 @@
+
+@import 'values';
+
+#mission-info-guard {
+  background-color: rgba(black, 0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  transition: opacity 0.2s ease-in-out;
+
+  &.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+}
+
+$mission-info-width: 480px;
+
+#mission-info {
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: $mission-info-width;
+  margin-left: -$mission-info-width/2;
+
+  transform-origin: center;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+  header {
+    position: relative;
+    padding: 8px 0;
+    
+    h1, h2, h3 {
+      padding: 8px 24px;
+    }
+
+    .vehicle-type {
+      float: right;
+      font-size: 14px;
+      font-weight: bold;
+      top: 0;
+      margin: 0;
+      right: 0;
+    }
+
+    .mission-customer {
+      font-size: 14px;
+      color: $secondary;
+    }
+    
+    .mission-name {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .mission-launch {
+      font-size: 12px;
+      font-weight: bold;
+    }
+    
+  }
+
+  &.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(24px);
+  }
+  
+}
