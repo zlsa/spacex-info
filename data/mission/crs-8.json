@@ -1,0 +1,31 @@
+{
+  "name": "CRS-8",
+  "customer": "NASA",
+  
+  "launch-time": 1460148180,
+
+  "vehicle": {
+    "type": "f9-v1.2",
+    "configuration": {
+      "octaweb": "black",
+      "grid-fins": true,
+      "legs": true
+    },
+    
+    "recovery": {
+      "fate": "landed",
+      "where": "ocisly",
+      "state": "used"
+    }
+  },
+
+  "capsule": {
+    "type": "cargo-dragon",
+    "name": "CRS-8"
+  },
+
+  "destination": {
+    "station": "iss"
+  }
+  
+}
