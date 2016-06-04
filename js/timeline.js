@@ -22,7 +22,7 @@ var Timeline = Events.extend(function(base) {
       this.images.vehicles = {};
       this.images.payloads = {};
 
-      this.init_destination_images(['geo', 'iss', 'leo', 'polar-leo', 'sun-earth-l1', 'lost']);
+      this.init_destination_images(['geo', 'iss', 'leo', 'polar-leo', 'sun-earth-l1', 'lost', 'mars']);
       
       this.init_landing_images(['ocean', 'barge', 'land', 'lost', 'rocket', 'splash']);
       
@@ -34,6 +34,7 @@ var Timeline = Events.extend(function(base) {
       this.init_vehicle_images('f9-v1.0', ['vehicle', 'rcs']);
       this.init_vehicle_images('f9-v1.1', ['vehicle', 'fairing', 'grid-fins', 'legs', 'rcs', 'black-octaweb']);
       this.init_vehicle_images('f9-v1.2', ['vehicle', 'fairing', 'grid-fins', 'legs', 'rcs', 'black-octaweb']);
+      this.init_vehicle_images('fh',      ['vehicle', 'fairing', 'grid-fins', 'legs', 'rcs', 'black-octaweb']);
     },
 
     init_directory_images: function(directory, prefix, images) {

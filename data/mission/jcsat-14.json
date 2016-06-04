@@ -1,8 +1,8 @@
 {
-  "name": "SES-9",
-  "customer": "SES",
+  "name": "JCSAT-14",
+  "customer": "SKY Perfect Corp",
   
-  "launch-time": 1457062500,
+  "launch-time": 1462468860,
 
   "vehicle": {
     "type": "f9-v1.2",
@@ -14,15 +14,14 @@
     "recovery": {
       "fate": "landed",
       "where": "ocisly",
-      "state": "destroyed"
+      "state": "used"
     }
-    
   },
 
   "payloads": [
     {
-      "name": "SES-9",
-      "customer": "SES"
+      "name": "JCSAT-14",
+      "customer": "SKY Perfect Corp"
     }
   ],
 

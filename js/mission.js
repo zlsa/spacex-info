@@ -14,7 +14,8 @@ var M = {
     'polar-leo': 160,
     geo: 64,
     'sun-earth-l1': 64,
-    lost: 256
+    lost: 256,
+    mars: 64
   },
   destination_distance: {
     leo: 32,
@@ -22,7 +23,8 @@ var M = {
     'polar-leo': 32,
     geo: 32,
     'sun-earth-l1': 48,
-    lost: 20
+    lost: 20,
+    mars: 20
   }
 };
 
@@ -192,7 +194,8 @@ var Mission = Events.extend(function(base) {
         'f1': 'f1',
         'f9-v1.0': 'f9v10',
         'f9-v1.1': 'f9v11',
-        'f9-v1.2': 'f9v12'
+        'f9-v1.2': 'f9v12',
+        'fh': 'fh'
       };
       
       this.html.addClass('vehicle-' + vehicle_classes[this.vehicle.type]);

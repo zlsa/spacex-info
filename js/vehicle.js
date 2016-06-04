@@ -43,6 +43,7 @@ var Vehicle = Events.extend(function(base) {
         'f9-v1.0': 'Falcon 9 v1.0',
         'f9-v1.1': 'Falcon 9 v1.1',
         'f9-v1.2': 'Falcon 9 v1.2',
+        'fh':      'Falcon Heavy',
       };
       return types[this.type];
     },
@@ -62,7 +63,7 @@ var Vehicle = Events.extend(function(base) {
         this.configuration.legs = false;
         this.configuration.rcs = true;
         this.configuration.octaweb = 'white';
-      } else if(this.type == 'f9-v1.2') {
+      } else if(this.type == 'f9-v1.2' || this.type == 'fh') {
         this.configuration.grid_fins = true;
         this.configuration.legs = true;
         this.configuration.rcs = true;
@@ -173,7 +174,8 @@ var Vehicle = Events.extend(function(base) {
         'f1': 125,
         'f9-v1.0': 300,
         'f9-v1.1': 392,
-        'f9-v1.2': 404
+        'f9-v1.2': 404,
+        'fh': 404
       };
       return vehicle_top[this.type];
     },

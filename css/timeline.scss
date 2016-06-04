@@ -115,6 +115,10 @@ $timeline-wrap: false;
       border-top-color: #5571CC;
     }
     
+    &.vehicle-fh .mission-info {
+      border-top-color: #ba00ff;
+    }
+    
   }
 
   @if not $timeline-wrap {
@@ -132,6 +136,10 @@ $timeline-wrap: false;
     
     .vehicle-f9v12 + .vehicle-f9v12 .mission-info:before {
       border-top-color: #5571CC;
+    }
+
+    .vehicle-fh + .vehicle-fh .mission-info:before {
+      border-top-color: #ba00ff;
     }
 
   }

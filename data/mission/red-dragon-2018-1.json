@@ -1,0 +1,20 @@
+{
+  "name": "Red Dragon 2018",
+  "customer": "SpaceX",
+  
+  "launch-time": 1526774400,
+
+  "vehicle": {
+    "type": "fh"
+  },
+
+  "capsule": {
+    "type": "crew-dragon",
+    "name": "Red Dragon"
+  },
+
+  "destination": {
+    "station": "mars"
+  }
+  
+}
