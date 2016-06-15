@@ -1,0 +1,37 @@
+{
+  "name": "Eutelsat 117 West B & ABS-2A",
+  "customer": "Eutelsat & ABS",
+  
+  "launch-time": 1466000940,
+
+  "vehicle": {
+    "type": "f9-v1.2",
+    
+    "configuration": {
+      "fairing": true
+    },
+    
+    "recovery": {
+      "fate": "landed",
+      "where": "ocisly",
+      "state": "destroyed"
+    }
+
+  },
+
+  "payloads": [
+    {
+      "name": "ABS-2A",
+      "customer": "Asia Broadcast Satellite"
+    },
+    {
+      "name": "Eutelsat 117 West B",
+      "customer": "Eutelsat"
+    }
+  ],
+
+  "destination": {
+    "station": "geo"
+  }
+  
+}
