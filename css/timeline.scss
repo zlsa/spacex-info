@@ -2,10 +2,11 @@
 @import 'values';
 
 $mission-width: 160px;
+$mission-height: 900px;
 $mission-spacing: 16px;
 $vehicle-bar-size: 8px;
 
-$timeline-wrap: false;
+$timeline-wrap: true;
 
 #timeline {
   display: flex;
@@ -23,6 +24,7 @@ $timeline-wrap: false;
   }
   
   .mission {
+    height: $mission-height;
     display: flex;
     flex-direction: column;
 
