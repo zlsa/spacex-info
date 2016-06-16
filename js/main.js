@@ -16,8 +16,6 @@ var Main = Events.extend(function(base) {
 
     init_loader: function() {
       this.loader = new Loader();
-      
-//      this.loader.on('progress', with_scope(this, this.on_progress));
       this.loader.on('finished', with_scope(this, this.loaded));
     },
 
@@ -35,9 +33,13 @@ var Main = Events.extend(function(base) {
     loaded: function() {
       var main = this;
 
+      $('#loading').addClass('hidden');
+
+      main.timeline.loaded();
+      
       setTimeout(function() {
-        main.timeline.loaded();
-      }, 300);
+        $('#timeline').addClass('loaded');
+      }, 0);
     }
 
   };

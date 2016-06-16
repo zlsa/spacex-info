@@ -14,11 +14,10 @@ html, body {
 }
 
 html {
-  background-color: #eee;
+  background-color: #fff;
   
   font-family: 'Roboto', sans-serif;
   color: $primary;
-  
 }
 
 #scroll {
@@ -26,4 +25,29 @@ html {
   width: 100%;
   height: 100%;
   overflow: auto;
+}
+
+#loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  text-align: center;
+  
+  margin-top: 90px;
+  
+  padding: 64px;
+  font-size: 16px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+
+  transition: opacity 0.2s ease;
+
+  &.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
 }

@@ -2,24 +2,48 @@
 #header {
   padding: 24px 48px;
 
-  background-color: #eee;
+  background-color: #fff;
 
   position: absolute;
   top: 0;
   left: 0;
 
+  z-index: 1000;
+
+  line-height: 24px;
+
+  * {
+    display: inline-block;
+    font-size: 16px;
+    height: 24px;
+  }
+  
   h1.title {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 100;
-    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    
+    color: rgba(black, 0.8);
+  }
+  
+  h1.title:after {
+    display: inline-block;
+    content: '';
+
+    background-image: url('../images/divider.png');
+    background-repeat: no-repeat;
+    
+    position: relative;
+    top: 6px;
+    
+    width: 60px;
+    height: 24px;
   }
   
   h2.subtitle {
-    font-size: 14px;
-    font-weight: bold;
+    font-family: 'Roboto Condensed';
     text-transform: uppercase;
-    width: 100%;
-    text-align: justify;
+    
+    color: rgba(black, 0.4);
   }
   
 }
