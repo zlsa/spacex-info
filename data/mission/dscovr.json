@@ -9,7 +9,9 @@
     
     "configuration": {
       "fairing": true,
-      "octaweb": "black"
+      "octaweb": "black",
+      "grid-fins": true,
+      "legs": true
     },
     
     "recovery": {
